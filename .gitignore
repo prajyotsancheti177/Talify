@@ -123,3 +123,4 @@ media/
 *.csv
 *.cdv
 *.sqlite3
+.hintrc

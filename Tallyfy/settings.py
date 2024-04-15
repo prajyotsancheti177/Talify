@@ -122,3 +122,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Define the MEDIA_ROOT
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Define the MEDIA_URL
+MEDIA_URL = '/media/'
